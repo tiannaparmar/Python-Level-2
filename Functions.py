@@ -78,3 +78,22 @@ def AreaOfRectangle(): #No parameters
 #function call
 
 AreaOfRectangle()
+
+
+
+#Exercise write a function to calculate the perimeter of rectangle 
+
+#Push your code online
+
+def PerimeterOfRectangle():
+
+    Base = eval(input("Enter the value for the base of your rectangle \n"))
+    Height = eval(input("Enter the value for the height of your rectangle \n"))
+
+    PerimeterOfRectangle = (Base + Height) * 2
+
+    print("Perimeter of rectangle is", PerimeterOfRectangle)
+
+#function call
+
+PerimeterOfRectangle()
