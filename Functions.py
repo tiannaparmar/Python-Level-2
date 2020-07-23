@@ -87,10 +87,10 @@ AreaOfRectangle()
 
 def PerimeterOfRectangle():
 
-    Base = eval(input("Enter the value for the base of your rectangle \n"))
-    Height = eval(input("Enter the value for the height of your rectangle \n"))
+    Length = eval(input("Enter the value for the length of your rectangle \n"))
+    Width = eval(input("Enter the value for the width of your rectangle \n"))
 
-    PerimeterOfRectangle = (Base + Height) * 2
+    PerimeterOfRectangle = (Length + Width) * 2
 
     print("Perimeter of rectangle is", PerimeterOfRectangle)
 
