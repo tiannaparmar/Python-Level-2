@@ -96,6 +96,105 @@ h1 {
   
 /* to make images responsive  */
 img { 
-    max-width: 100%;
+     width: 50%;
+     max-width: 100%;
      height: auto;
+}
+
+/* Formating of the input tags */
+input[type=submit]{
+    width: 100px; /* When specifiying this, you can use both px and % */
+    background-color: thistle;
+    color: black;
+    padding: 10px 15px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+    border: 4px solid whitesmoke;
+    cursor: pointer;
+}
+
+/* On hoover the button changes*/
+input[type=submit]:hover {
+    width: 100px; /* When specifiying this, you can use both px and % */
+    background-color: white;
+    color:thistle;
+    padding: 10px 15px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+    border: 4px solid orange;
+    border-radius: 10px;
+}
+
+input[type=reset]:hover {
+    width: 100px; /* When specifiying this, you can use both px and % */
+    background-color: white;
+    color:thistle;
+    padding: 10px 15px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+    border: 4px solid orange;
+    border-radius: 10px;
+}
+
+/* Set focus on a text field*/
+input[type=text]:focus {
+    width: 100%;
+    background-color:gainsboro;
+}
+
+
+
+input[type=reset]{
+    width: 100px; /* When specifiying this, you can use both px and % */
+    background-color: thistle;
+    color: black;
+    padding: 10px 15px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+    border: 4px solid whitesmoke;
+}
+
+
+
+input[type=text] {
+    width: 100%;
+    padding: 15px 22px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+    border: 4px solid powderblue;
+    border-radius: 5px;
+}
+
+
+input[type=password] {
+    width: 100%;
+    padding: 15px 22px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+    border: 4px solid pink;
+    border-radius: 5px;
+}
+
+/* Format our textarea */
+
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 15px 22px;
+    box-sizing: border-box;
+    border: 4px solid #ccc;
+    border-radius: 5px;
+    background-color: palegreen;
+    resize: none;
+}
+
+/* Format the select */
+
+select {
+    width: 100%;
+    padding: 18px 22px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: violet;
 }
